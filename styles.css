@@ -1,2 +1,41 @@
-* { font-family: 'Raleway', sans-serif;
+body { 
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom left, #672E3B 0%, #646D71 100%);
 }
+
+.header-image img {
+    position: relative;
+    width: 100%;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.header-image h2 {
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 110px;
+    left: 5%;
+}
+
+.articles {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/*.photo-album {
+    float: right;
+    width: 10%;
+}
+
+#photo1 {
+    padding-top: 30px;
+    border-radius: 5%;
+    width: auto;
+}
+
+#photo2 {
+    border-radius: 5%;
+    width: auto;
+}*/
