@@ -3,6 +3,9 @@ body {
     background: linear-gradient(to bottom left, #672E3B 0%, #646D71 100%);
 }
 
+footer {
+    padding-top: 300px;
+}
 #hd-image {
     position: relative;
     width: 100%;
@@ -24,6 +27,28 @@ body {
     padding-bottom: 50px;
 }
 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
 /*.photo-album {
     float: right;
     width: 10%;
