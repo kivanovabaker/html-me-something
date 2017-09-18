@@ -3,7 +3,7 @@ body {
     background: linear-gradient(to bottom left, #672E3B 0%, #646D71 100%);
 }
 
-.header-image img {
+#hd-image {
     position: relative;
     width: 100%;
     opacity: 0.7;
